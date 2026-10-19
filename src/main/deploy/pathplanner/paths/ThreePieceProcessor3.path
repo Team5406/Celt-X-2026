@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 1.9895584725536994,
+        "y": 1.0301909307875872
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.906242033359863,
+        "y": 1.8704924336142785
+      },
+      "isLocked": false,
+      "linkedName": "ProcessorEnd2"
+    },
+    {
+      "anchor": {
+        "x": 3.7,
+        "y": 2.6
+      },
+      "prevControl": {
+        "x": 2.9554258330427947,
+        "y": 1.9406653872084743
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "End4"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.0,
+    "maxAcceleration": 5.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 59.99999999999999
+  },
+  "reversed": false,
+  "folder": "ThreePieceProcessor",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 49.610649318660606
+  },
+  "useDefaultConstraints": false
+}

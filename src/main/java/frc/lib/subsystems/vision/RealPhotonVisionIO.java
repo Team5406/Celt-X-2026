@@ -1,0 +1,41 @@
+/*
+ * Copyright (c) 2024 FRC 4481 - Team Rembrandts.
+ * https://github.com/FRC-4481-Team-Rembrandts.
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * version 3 as published by the Free Software Foundation or
+ * available in the root directory of this project.
+ */
+package frc.lib.subsystems.vision;
+
+import edu.wpi.first.apriltag.AprilTagFieldLayout;
+import edu.wpi.first.math.geometry.Transform3d;
+import org.photonvision.targeting.PhotonTrackedTarget;
+
+/** A class used to interface with a PhotonVision camera */
+public class RealPhotonVisionIO extends PhotonVisionIO {
+
+    /**
+     * Create a new PhotonVisionIO object for a real robot
+     *
+     * @param cameraName Name of the camera in networktables
+     * @param robotToCameraTransform Transform that represents the translation and rotation from robot
+     *     centre to the camera
+     * @param aprilTagFieldLayout Layout of the april tags around the field
+     * @param useGlobalPose Whether or not the camera is being used for global pose estimation
+     */
+    public RealPhotonVisionIO(
+            String cameraName,
+            Transform3d robotToCameraTransform,
+            AprilTagFieldLayout aprilTagFieldLayout,
+            boolean useGlobalPose) {
+        super(cameraName, robotToCameraTransform, aprilTagFieldLayout, useGlobalPose);
+    }
+
+    @Override
+    public PhotonTrackedTarget getBestTag() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getBestTag'");
+    }
+}

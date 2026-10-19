@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 5.772,
+        "y": 4.2
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 5.772,
+        "y": 3.9165822429698522
+      },
+      "isLocked": false,
+      "linkedName": "OnePieceMiddle-End1"
+    },
+    {
+      "anchor": {
+        "x": 5.772,
+        "y": 3.7
+      },
+      "prevControl": {
+        "x": 5.772,
+        "y": 3.9500000000000006
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 0.25,
+    "maxAcceleration": 0.5,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 180.0
+  },
+  "reversed": false,
+  "folder": "OnePieceMiddle",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 180.0
+  },
+  "useDefaultConstraints": false
+}
